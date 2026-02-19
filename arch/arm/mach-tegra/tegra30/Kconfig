@@ -24,6 +24,10 @@ config TARGET_ENDEAVORU
 	bool "HTC Endeavoru T30 board"
 	select BOARD_LATE_INIT
 
+config TARGET_PICASSO2
+	bool "Acer picasso2 board"
+	select BOARD_LATE_INIT
+
 config TARGET_GROUPER
 	bool "Asus and Google Grouper board"
 	select BOARD_LATE_INIT
@@ -66,6 +70,7 @@ source "board/nvidia/beaver/Kconfig"
 source "board/nvidia/cardhu/Kconfig"
 source "board/toradex/colibri_t30/Kconfig"
 source "board/htc/endeavoru/Kconfig"
+source "board/acer/picasso2/Kconfig"
 source "board/asus/grouper/Kconfig"
 source "board/lenovo/ideapad-yoga-11/Kconfig"
 source "board/ouya/ouya/Kconfig"

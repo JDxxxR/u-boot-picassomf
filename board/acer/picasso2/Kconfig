@@ -1,0 +1,13 @@
+if TARGET_PICASSO2
+
+config SYS_BOARD
+	default "picasso2"
+
+config SYS_VENDOR
+	default "acer"
+
+config TEGRA_BOARD_STRING
+	string "Default Tegra board name"
+	default "Acer picasso2"
+
+endif
